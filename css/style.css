@@ -21,3 +21,18 @@ button {
 .study__subscribe {
   background: rgb(237, 255, 201);
 }
+
+.error {
+  color: red;
+  background: pink;
+}
+
+.study__sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

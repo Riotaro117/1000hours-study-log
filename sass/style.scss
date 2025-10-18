@@ -11,12 +11,23 @@
   // align-items: center;
 }
 
-button{
+button {
   // min-width: 200px;
   background: skyblue;
   color: white;
 }
 
-.study__subscribe{
+.study__subscribe {
   background: rgb(237, 255, 201);
+}
+
+.error {
+  color: red;
+  background: pink;
+}
+
+.study__sum {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }

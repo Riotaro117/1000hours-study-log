@@ -13,13 +13,14 @@
       <label class="study-content" for="content">学習内容</label>
       <input id="content" class="study-content__input" type="text" />
       <label class="study-time" for="time">学習時間</label>
-      <input id="time" class="study-time__input" type="number" />
+      <input id="time" class="study-time__input" type="number" min="1" step="1" />
       <span class="">時間</span>
       <p>入力されている学習内容：<span class="study-content__output"></span></p>
       <p>入力されている時間：<span class="study-time__output"></span>時間</p>
       <p class="study__subscribe"></p>
       <button>登録</button>
-      <p class="">合計時間：0 / 1000(h)</p>
+      <p class="error"></p>
+      <div class="study__sum">合計時間：<p class="study__sum-time">0</p> / 1000(h)</div>
       <script src="./js/main.js"></script>
     </div>
   </body>
